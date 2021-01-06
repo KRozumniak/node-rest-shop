@@ -14,7 +14,6 @@ mongoose.connect('mongodb+srv://KirkRk:' + process.env.MONGO_ATLAS_PW + '@cluste
   }
 )
 
-
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
