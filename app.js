@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/orders');
 
-mongoose.connect('mongodb+srv://KirkRk:' + process.env.MONGO_ATLAS_PW +'@cluster0.3gal1.mongodb.net/<dbname>?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://KirkRk:' + process.env.MONGO_ATLAS_PW + '@cluster0.3gal1.mongodb.net/<dbname>?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
